@@ -1,5 +1,0 @@
-n-th fibonacii
-
-m-fib sequence
-m-n fib sequence
-prime fibs?
