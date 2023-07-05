@@ -1,0 +1,43 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Why Mathematics}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Bonus: }{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Lookup: }{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Glossary}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}References}{6}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Branches of Mathematics}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Glossary}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}References}{7}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Things and Objects}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Glossary}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}References}{8}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Numbers}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Glossary}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}References}{9}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Counting}{10}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Glossary}{10}{section.6.1}%
+\contentsline {section}{\numberline {6.2}References}{10}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Addition and Subtraction}{11}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Glossary}{11}{section.7.1}%
+\contentsline {section}{\numberline {7.2}References}{11}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Let this be that}{12}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Glossary}{12}{section.8.1}%
+\contentsline {section}{\numberline {8.2}References}{12}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Multiplication and division}{13}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Glossary}{13}{section.9.1}%
+\contentsline {section}{\numberline {9.2}References}{13}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Fractions, decimals and Percentages}{14}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Glossary}{14}{section.10.1}%
+\contentsline {section}{\numberline {10.2}References}{14}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Order of Operations}{15}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Glossary}{15}{section.11.1}%
+\contentsline {section}{\numberline {11.2}References}{15}{section.11.2}%
+\contentsline {chapter}{\numberline {12}Operations all together}{16}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Glossary}{16}{section.12.1}%
+\contentsline {section}{\numberline {12.2}References}{16}{section.12.2}%
+\contentsline {chapter}{\numberline {13}Power}{17}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Glossary}{17}{section.13.1}%
+\contentsline {section}{\numberline {13.2}References}{17}{section.13.2}%
+\contentsline {chapter}{\numberline {14}Root}{18}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Glossary}{18}{section.14.1}%
+\contentsline {section}{\numberline {14.2}References}{18}{section.14.2}%
+\contentsline {chapter}{\numberline {15}Where to go from here}{19}{chapter.15}%
