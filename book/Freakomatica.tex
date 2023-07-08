@@ -1,6 +1,14 @@
 \documentclass[12pt]{book}
 \usepackage{graphicx} % Required for inserting images
-\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{hyperref} %for hyper references and links
+
+\hypersetup{% properties of links
+    colorlinks=true,
+    urlcolor=blue,
+    urlbordercolor=blue
+}
+\usepackage[symbol]{footmisc} %for footnote symbols
 \usepackage{makeidx}
 \makeindex
 
@@ -12,7 +20,7 @@
 \maketitle
 \newpage
 \begin{center}
-    This page is intentionary left blank
+    This page is intentionally left blank
 \end{center}
 
 \newpage
@@ -29,21 +37,13 @@
 
 \include{ch1/Introduction}%!ch1
 
+
+
+
+
+
+
 \mainmatter
-\chapter{Why Mathematics} %!chapter
-
-%importance of mathematics in life
-\section{Bonus: }%!BONUS
-\section{Lookup: }%!LOOKUP
-\section{Glossary}
-\section{References}
-\newpage
-
-\chapter{Branches of Mathematics}%!chapter
-\section{Glossary}
-\section{References}
-\newpage
-
 \chapter{Things and Objects}%!chapter
 \section{Glossary}
 \section{References}
