@@ -1,28 +1,35 @@
-\documentclass{report}
+\documentclass[12pt]{book}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
-\title{FREAKOMATICA}
+\usepackage{makeidx}
+\makeindex
+
+\title{FREAKOMATICA \\\huge{Mathematics from First Principles}}
 \author{Joel Mwala}
 
 \begin{document}
+\frontmatter
 \maketitle
-\pagebreak
+\newpage
+\begin{center}
+    This page is intentionary left blank
+\end{center}
 
-\chapter*{Preface}
-\pagebreak
+\newpage
 
+
+
+\include{acknowledgement/acknowledgement}%!acknowledge
+
+\include{preface/preface}%!preface
 
 \tableofcontents
-\pagebreak
+\newpage
 
-\chapter*{Acknowledgements}
-\pagebreak
 
-\chapter{Introduction}
-% books overall approach
+\include{ch1/Introduction}%!ch1
 
-\pagebreak
-
+\mainmatter
 \chapter{Why Mathematics} %!chapter
 
 %importance of mathematics in life
@@ -30,19 +37,17 @@
 \section{Lookup: }%!LOOKUP
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
 \chapter{Branches of Mathematics}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Things and Objects}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Numbers}%!chapter
 % counting and number names
@@ -51,36 +56,79 @@
 % comparing and ordering numbers
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
+
+% Place Value and Operations: Introduce the concept of place value, where the position of a digit determines its value within a number. Teach addition and subtraction with regrouping (carrying and borrowing) to develop a deeper understanding of arithmetic operations.
 
 \chapter{Counting}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Addition and Subtraction}%!chapter
+% the numbers
+% being added are called the addends, and the result the sum
+% Carrying is performed when the sum of a column of addends is more than 9. Addition is
+% commutative, meaning a + b = b + a
+% associative, meaning (a + b) + c = a + (b + c).
+% Adding zero to a number results in that same number, making zero the
+% additive identity, e.g., a + 0 = a. Subtraction is the inverse of addition. In
+% subtraction, for example in a − b, a is the minuend and b the subtrahend. In
+% contrast to addition, subtraction is neither commutative nor associative. Just
+% as carrying is often required when adding a column of numbers, borrowing is
+% often required when subtracting numbers. The symbol ±, read ‘plus or minus’,
+% can be used to denote an uncertainty or a pair of values (e.g., the two roots of
+% the quadratic equation).
+%%%%!--from 30s mathematics
+
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Let this be that}%!chapter
 % expressions
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Multiplication and division}%!chapter
 % Introduction to multiplication and division
 % Multiplication tables and strategies
 % Division facts and strategies
 % Word problems involving multiplication and division
+
+
+% Multiplication and division were extremely challenging using early
+% numeral systems that did not employ positional notation, such as Egyptian,
+% Greek, and Roman numerals. The numeral and arithmetic system eventually
+% adopted in Europe was developed in India, with important advances made in
+% the sixth and seventh centuries. In the multiplication a × b = c, a is the
+% multiplier, b the multiplicand and c the product; a and b are also called
+% factors. Notation for multiplication of two numbers a and b includes a × b, a ·
+% b, (a)(b) and, favoured by mathematicians, simply ab. Similar to addition,
+% carrying is necessary when the product of a column of digits is more than 9.
+% In the example a × 1 = a, 1 is the multiplicative identity. Multiplication is
+% commutative, meaning a × b = b × a, and associative, meaning (a × b) × c = a ×
+% (b × c). Division is neither. In the division a ÷ b = c, a is the dividend, b the
+% divisor, and c the quotient. Mathematicians favour the notation a/b to a ÷ b.
+% Long division is a division algorithm that displays the dividend (the amount to
+% divide), divisor (number you divide by), and quotient (the answer) in a tableau.
+% For mathematicians, division of any number by zero is undefined because it
+% doesn’t make sense in a rigorous manner.
+
+
+% Multiplication is repeated addition of a first number a specified second
+% number of times. Division is determining how many times one quantity is
+% contained in another
+
+
+%%%%!--from 30s mathematics
+
+
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
 \chapter{Fractions, decimals and Percentages}%!chapter
 % Introduction to fractions
@@ -93,35 +141,79 @@
 % Converting decimals to fractions and percentages
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
+
+% properties of numbers
+% commutative ....
+% associative
 
 \chapter{Order of Operations}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
 \chapter{Operations all together}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
-
+\newpage
 
 \chapter{Power}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
 \chapter{Root}%!chapter
 \section{Glossary}
 \section{References}
-\pagebreak
+\newpage
 
 \chapter{Where to go from here}
 % Guidance for further math learning and resources
 % Summary of the book's content and achievements
-\pagebreak
+\newpage
 
+\backmatter
+\printindex
 \end{document}
+
+
+Attempts at solutions had wonderful unforeseen
+benefits
+
+##links to youtube channels
+## links to specific video
+
+## applications of the gist
+- physics,
+- technology, biology, medicine, geology, psychology, linguistics, politics, law,
+- theology, history, philosophy and mathematics
+
+## its all symbols
+##Historical figures
+- galileo
+- fibbonaci
+- zeno
+- GOTTFRIED LEIBNIZ
+- Alkwazir
+
+##contributions
+- contributed by everyone nomatteer the ccupation
+---words
+//multiplier
+//multiplicand
+//devisor
+//numerator
+//diidend
+//idea of zero
+//variables
+//coefiecient
+//idea of infinity
+//zenos paradox
+// reversal reversal
+//"poor language condemns us to poor thought"
+##Incompleteness
+//parallel lines
+//absolute values
 %table of contents
 
 1 Acknowledgements
@@ -154,3 +246,27 @@
 - Perimeter and area
 - Volume and surface area
 - Introduction to coordinate geometry
+
+#logarithms
+#function
+#Sequencies
+- fibonacci sequence
+
+#combinations
+#solids
+#Trigonometry
+#probability?
+
+#goal
+real-world applications
+interactive
+fostering unersatanding
+curiosity
+solve everydy problems
+simulaations
+gamefied
+
+
+BOOKS
+30 second mathematics
+How to solve it - George Poyla
