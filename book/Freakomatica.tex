@@ -2,13 +2,15 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{xcolor}
 \usepackage{hyperref} %for hyper references and links
-
+\usepackage{parskip}
 \hypersetup{% properties of links
     colorlinks=true,
     urlcolor=blue,
     urlbordercolor=blue
 }
 \usepackage[symbol]{footmisc} %for footnote symbols
+
+
 \usepackage{makeidx}
 \makeindex
 
@@ -39,15 +41,9 @@
 
 
 
-
-
-
-
 \mainmatter
-\chapter{Things and Objects}%!chapter
-\section{Glossary}
-\section{References}
-\newpage
+\include{ch2/things}%!ch2
+
 
 \chapter{Numbers}%!chapter
 % counting and number names
@@ -191,24 +187,24 @@ benefits
 ## its all symbols
 ##Historical figures
 - galileo
-- fibbonaci
+- fibonacci
 - zeno
 - GOTTFRIED LEIBNIZ
 - Alkwazir
 
 ##contributions
-- contributed by everyone nomatteer the ccupation
+- contributed by everyone no matter the occupation
 ---words
 //multiplier
 //multiplicand
 //devisor
 //numerator
-//diidend
+//dividend
 //idea of zero
 //variables
-//coefiecient
+//coefficient
 //idea of infinity
-//zenos paradox
+//zeno's paradox
 // reversal reversal
 //"poor language condemns us to poor thought"
 ##Incompleteness
@@ -260,13 +256,14 @@ benefits
 #goal
 real-world applications
 interactive
-fostering unersatanding
+fostering understanding
 curiosity
-solve everydy problems
-simulaations
-gamefied
+solve every day problems
+simulations
+put into game
 
 
 BOOKS
 30 second mathematics
 How to solve it - George Poyla
+Mathematician's Appology - G.H. Hardy
